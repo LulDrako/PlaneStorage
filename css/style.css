@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('avion.gif');
+  background-size: cover;
+  background-position-y: 65%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 125px;
+}
+
+.footer {
+  font-size: 18px;
+  width: 100%;
+  margin-top: 575px;
+  text-align: center;
+}
+
+.fa-arrow-right {
+  font-size: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer p {
+  font-size: 22px;
+}
+
+.fa-plane {
+  margin-right: 15px;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  grid-row-gap: 15px;
+  margin-bottom: 30px;
+}
+
+.category {
+  width: 30%;
+  padding: 10px 20px;
+  background: rgba(173,216,230,.4);
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+
+.category img {
+  width: 100%;
+}
+
+#atr img,
+#bombardier img,
+#embraer img,
+#airbus img {
+  margin-top: 20%;
+}
+
+.fa-industry {
+  margin-right: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin-top: 2rem;
+}
+
+.grid-item {
+  box-sizing: border-box;
+  border: solid black .5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(255,255,255,.5)
+}
+
+.grid-item img {
+  width: 615px;
+  height: 340px;
+  border-radius: 10px;
+}
+
+.grid-item h2, h3 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.question {
+  text-align: center;
+}
+
+.question .fa-question {
+  display: fixed;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  width: 100%;
+}
