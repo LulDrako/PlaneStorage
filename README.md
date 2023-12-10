@@ -13,6 +13,3 @@ PlaneStorage is a web project that catalogs various airplane models along with t
 
 ## How to Use
 Visit our website [here](https://planestorage.luldrako.repl.co) to explore the catalog of airplanes.
-
-## Contributing
-Contributions to the PlaneStorage project are welcome. Please read our contribution guidelines for more information.
