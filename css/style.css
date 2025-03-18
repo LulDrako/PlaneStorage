@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: url('avion.gif');
+  background: url('/image/avion.gif');
   background-size: cover;
   background-position-y: 65%;
 }
